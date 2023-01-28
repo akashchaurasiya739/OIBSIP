@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: #f9f7f6;
+            padding-top: 50px;
+            font-family: 'Kanit', sans-serif;
+           
+        }
+
+        #container{
+            width: 600px;
+            height: 400px;
+            background:#f9f7f6;
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+            font-weight: bold;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: -11px 11px 21px #c5c3c2,
+                         11px -11px 21px #ffffff;
+            
+        }
+
+        .task-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            padding: 2px 0 0 0;
+        }
+        
+        #p1 {
+            font-family: system-ui;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box1{
+           
+            display: inline-block;
+            font-size: 18px;
+            color: black;
+            padding: 5px;
+            margin: 15px;
+            margin-left: 60px;
+            margin-top: 5px;
+            background:#f9f7f6;
+            border-radius: 20px;
+        }
+
+        label{
+            margin: -10px;
+            font-size: medium;
+            position: relative;
+            right: 3px;
+        }
+
+        #Temperature1{
+            margin-left: 10px;
+            
+        }
+        
+      
+        .inputBox{
+            padding: 8px;
+            border-radius: 5px;
+            display: inline-block;
+            width: 120px;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: -11px 11px 21px #c5c3c2,
+                         11px -11px 21px #ffffff;
+            
+        }
+
+        .inputBox:focus{
+            outline: 2.5px solid black;
+        }
+
+       span{
+           font-size: 20px;
+           position: relative;
+           left: 20px;
+       }
+
+        .box2{
+            
+            color: aliceblue;
+            padding: 5px;
+            margin-top: 5px;
+            display: inline-block;
+           margin-left: 40px;
+           margin-right: 65.5px/*72.5*/;
+          
+        }
+
+       #selecter{
+           width: 500px;
+           text-align: center;
+           display: inline-block;
+       }
+        select{
+            width: 100px;
+            border-radius: 5px;
+            background:#f9f7f6;
+             color: black; 
+             font-family: 'Kanit', sans-serif;
+             font-weight: bold;
+            padding: 5px;
+            margin-top: 15px;
+            cursor: pointer;
+       }
+
+       select:focus{
+        outline: 2.5px solid black;
+    }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+   
+   
+    <center>
+        <!-- Creating main container  -->
+
+      <div id="container">
+
+        <div class="task-bar">
+            <div id="p1"></div>
+            <div class="icons">
+                <i class="bi bi-bell-slash-fill"></i>
+                <i class="bi bi-bluetooth"></i>
+                <i class="bi bi-battery-charging"></i>
+            </div>
+        </div>
+
+        <!-- Title -->
+        <h1 style="text-align: center; color: black;">Temperature Converter</h1><br>
+
+          <!-- input fields to get input from user -->
+        <div id="Temperature1" class="box1">
+             <label id="L1"></label><br><br>
+            <input type="number" class="inputBox" id="input1">
+        </div>
+        <span>=</span>
+        <div id="Temperature2" class="box1">
+            <label id="L2"></label><br><br>
+            <input type="number" class="inputBox" id="input2">
+        </div><br>
+
+        <!-- Creating 2 selecter to choose options -->
+        <div id="selecter">
+            <div class="box2">
+                <select id="select1" style="margin-left: 5px; margin-bottom: 10px;">
+                    <option value="Celsius">Celsius</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                </select>
+            </div>
+            
+            <div class="box2">
+                <select id="select2" style="margin-left: 5px; margin-bottom: 10px;">
+                    <option value="Fahrenheit" >Fahrenheit</option>
+                    <option value="Celsius">Celsius</option>
+                </select>
+            </div>
+            
+        </div>
+      </div>
+      <div class="footer">
+        <br>
+        <br>
+        <p>Developed by <a href="https://www.linkedin.com/in/akash-chaurasiya-58078a216/">Akash Chaurasiya</a></p>
+    </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
